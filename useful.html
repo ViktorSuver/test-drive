@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Тест-Драйв_2.2</title>
+<link href='images/logo.png' rel='icon' type='image/x-icon'/>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css' rel='stylesheet'/>
+</head>
+<body>
+<nav><div class="vnav">
+   <a style="padding-right: 50px;" href='index.html'><img src="images/logo-VK.png" width="134" 
+      height="20" alt=""></a> 
+      <form class="search-container" action="action.php" style="display: inline;">
+          <input type="text" placeholder="Поиск.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="col">
+         <img alt="" border="0" height="20" src="images/ic_head_notify.svg" width="20"/>
+       </div>
+       <div id="melody-1" class="button" data-src="https://suver.cf/music/u2-one.mp3"><i class="fa fa-step-backward" aria-hidden="true"></i>
+         <i class="fa fa-play" aria-hidden="true"></i>
+                 <i class="fa fa-step-forward" aria-hidden="true"></i>
+                 u2 - one
+          </div>
+           
+</div>
+<div class="right">
+   <a href='#'>Online</a>
+ </div>
+</nav>
+
+<div id="main" class="mainy">
+<div class="telo">
+<h1>Полезная Информация</h1>
+<h2>Пробую Visual Studio Code</h2>
+<p>чтобы установить русский язык на VS code, нужно в поиске (ctrl+p) вбить следующею строку:</p>
+<p style="color: brown;">ext install MS-CEINTL.vscode-language-pack-ru 
+    <br>
+</p><p> после того как всё установится, программа предложит перезагрузиться... <br>
+Всё, можно пользоваться русско-язычной программой...))))
+</p>
+<p>Информация пришла от <a style="color: darkcyan; font: 1.4em sans-serif;" href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ru" target="_blank">сюда</a></p>
+<br><br><br>
+<hr>
+<p>Возможно, скоро появятся ещё полезные штуки... <br>
+Следите за обновлениями! </p>
+<button class="back"><a href='index.html'>Вернуться на главную</a></button>
+</div>
+<aside class="abc"><h3></h3>
+   <ul>
+   <li style="list-style: none; background: url(images/home.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='index.html'>Моя страница</a>
+   <li style="list-style: none; background: url(images/news.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='news.html'>Новости</a>
+   <li style="list-style: none; background: url(images/messages.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='messages.html'>Сообщения</a>
+   <li style="list-style: none; background: url(images/photo.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='photo.html'>Фотографии</a>
+   <li style="list-style: none; background: url(images/music.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='music.html'>Музыка</a>
+   <li style="list-style: none; background: url(images/video.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='video.html'>Видео</a></li>
+     <br/>
+     <hr/>
+     <br/>
+     <li style="list-style: none; background: url(images/map.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='map.html'>Карта сайта</a></li>
+     <li style="list-style: none; background: url(images/useful.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='useful.html'>Полезности</a></li>
+     <li style="list-style: none; background: url(images/contact.jpg) no-repeat -5px 0px;padding-left: 30px;"><a href='contact.html'>Контакты</a></li>
+   </ul>
+   </aside>
+</div>
+<footer><b><a href='index.html'>Тест-Драйв.2020</a></b></footer>
+<audio id="my-hidden-player" loop></audio>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/myscript.js"></script>
+<script>
+  
+   $(function($) {
+          $(window).scroll(function(){
+              if($(this).scrollTop()>40){
+                  $('aside').addClass('fixed');
+              }
+              else if ($(this).scrollTop()<40){
+                  $('aside').removeClass('fixed');
+              }
+          });
+      });
+
+</script>
+</body>
+</html>

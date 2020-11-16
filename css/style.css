@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    background: #edeef0;
+    font: normal normal 15px Arial;
+    color: #303842;
+}
+
+nav {
+    width: 100%;
+    height: 35px;
+    background: #4a76a8;
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: white;
+
+}
+nav a {
+    color: white;
+}
+nav img {
+    vertical-align: middle;
+    padding: 0 10px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.vnav {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 423px;
+}
+.vnav, .right, .online_status, search-container, form, .col, #melody-1 {
+    display: inline-block;
+  }
+  .right, .online_status {
+    position: absolute;
+    right: 80px;
+  }
+  nav input {
+    width: 210px;
+    height: 23px;
+    border-radius: 50px;
+    border: none;
+    margin-top: -2px;
+    padding: 0 0 0 30px;
+    color: #bfcee0;
+    background: #224b7a;
+}
+nav button {
+    position: relative;
+    right: 240px;
+    top: 0px;
+    width: 23px;
+    height: 23px;
+    background: transparent; 
+    border: none;
+}
+header {
+    position: absolute;
+    left: 40px;
+    color: #a6bbd2;
+}
+h1 {
+font-family: Oswald;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 15px;
+}
+section {
+    width: 600px;
+    float: right;
+}
+section iframe {
+    padding-left: 20px;
+}
+section p {
+    padding: 0 20px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+summary {
+    color: #4a76a8;
+    cursor: pointer;
+}
+aside {
+    width: 200px;
+    float: left;
+    margin-left: 40px;
+    margin-top: -20px;
+    position: relative;
+    z-index:99;
+}
+
+   aside.fixed {
+   position: fixed;
+       top: 0;
+   }
+aside ul li {
+    padding: 5px 0;
+}
+aside ul li a {
+    color: #4a76a8;
+}
+aside ul li a:visited {
+    color: #4a76a8;
+}
+aside2 {
+    width: 300px;
+    float: right;
+    margin: 0 20px 0 0;
+}
+aside2 img {
+    padding: 25px;
+}
+aside.abc {
+    margin-top: -5px;
+}
+.avatar {
+    margin-top: -18px;
+}
+.avatar, .block-a, .block-b, audio {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+}
+audio {
+    width: 250px;
+    padding: 40px 25px;
+}
+aside h3, aside2 h3, section h3 {
+    text-align: center;
+}
+.block-a {
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+}
+.block-b {
+    padding-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    margin-top: 100% !important;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+}
+button.back a {
+    color: white;
+}
+button.back {
+    padding: 10px 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #e86f15 50%, #e0581f 50%);
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+#main {
+    width: 1200px;
+    margin: -16px auto;
+}
+.mainy{
+    margin-top: 0px !important;
+}
+#section-nw h1, #section-nw h2 {
+    text-align: center;
+}
+.telo {
+    background: #ffffff;
+    width: 73%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    float: right;
+}
+.online_status {
+    
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.5);
+    height: 8px;
+    width: 8px;
+    background-color: #4dd4a6;
+    margin-top: 5px;
+}
+.friends-vk {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    margin-top: 18px;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #cecece; /* Цвет линии для остальных браузеров */
+    background-color: #cecece; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #bfcee0;
+    padding-right: 20px;
+}
+.col {
+    margin: -20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+.col:hover {
+    background: #41587369;
+    height: 33px;
+    margin: -20px 0 0 0;
+}
+.fa-step-backward:before {
+    content: "\f048";
+    padding-left: 20px;
+}
+#melody-1 {
+    margin: -20px 0 0 0;
+    padding: 20px 20px 0 0;
+    color: #bfcee0;
+}
+#melody-1:hover {
+    background: #41587369;
+    height: 33px;
+    margin: -20px 0 0 0;
+    color: white;
+}
+i.fa.fa-play:hover, i.fa.fa-step-backward:hover, i.fa.fa-step-forward:hover {
+    color: white;
+    cursor: pointer;
+}
